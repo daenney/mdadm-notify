@@ -1,0 +1,15 @@
+language: minimal
+sudo: false
+
+notifications:
+  email: false
+
+script:
+  - shellcheck mdadm-notify
+
+branches:
+  only:
+  - master
+
+matrix:
+  fast_finish: true
