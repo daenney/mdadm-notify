@@ -13,7 +13,7 @@ for util in $required_system_utils; do
 done
 
 
-send_message() {
+send_message() {''
     urgency=$1
     summary=$2
     body=$3
